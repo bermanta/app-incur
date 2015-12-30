@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <meta charset="UTF-8"/>
+    
+    <!--Import materialize.css-->
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="css/material-icons.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <title>Incursión</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav class="green accent-4">
+        <div class="nav-wrapper">
+            <ul id="mobile-demo" class="side-nav fixed collapsible" data-collapsible="accordion">
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" data-rute="pages/home/index.html" id="home"><i class="material-icons">home</i>Inicio</a>
+                </li>
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="model">
+                        <i class="material-icons">recent_actors</i>Modelo
+                    </a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a class="waves-effect waves-green" data-rute="pages/model/educative.html" id="educative">Modelo Educativo</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/model/tsu.html" id="tsu">TSU</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/model/philosophy.html" id="philosophy">Filosofía</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/model/attribute.html" id="attribute">Atributos</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/model/values.html" id="values">Valores</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="careers">
+                        <i class="material-icons">work</i>Carreras
+                    </a>
+                    <div class="collapsible-body">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <a class="collapsible-header waves-effect waves-green icon-ayep" id="administration">Administración</a>
+                              <div class="collapsible-body">
+                                  <ul class="collapsible" data-collapsible="accordion">
+                                      <li>
+                                          <a class="black-font waves-effect waves-green" data-rute="pages/careers/administration/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                              <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="black-font waves-effect waves-green" data-rute="pages/careers/administration/study-plan-tsu.html" id="adm-sp-tsu">
+                                              <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="black-font waves-effect waves-green" data-rute="pages/careers/administration/egress-perfil-engineering.html" id="adm-ep-eng">
+                                              <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a class="black-font waves-effect waves-green" data-rute="pages/careers/administration/study-plan-engineering.html" id="adm-sp-eng">
+                                              <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green icon-conta" id="accounting">Contaduría</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/accounting/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/accounting/study-plan-tsu.html" id="adm-sp-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/accounting/egress-perfil-engineering.html" id="adm-ep-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/accounting/study-plan-engineering.html" id="adm-sp-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green icon-meca" id="mecatronic">Mecatrónica</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/mecatronic/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/mecatronic/study-plan-tsu.html" id="adm-sp-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/mecatronic/egress-perfil-engineering.html" id="adm-ep-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/mecatronic/study-plan-engineering.html" id="adm-sp-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green icon-pal" id="proccess-food">Procesos Alimentarios</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/proccess-food/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/proccess-food/study-plan-tsu.html" id="adm-sp-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/proccess-food/egress-perfil-engineering.html" id="adm-ep-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/proccess-food/study-plan-engineering.html" id="adm-sp-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green icon-enf" id="nursing">Enfermería</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/nursing/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/nursing/study-plan-tsu.html" id="adm-sp-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/nursing/egress-perfil-engineering.html" id="adm-ep-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/nursing/study-plan-engineering.html" id="adm-sp-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green icon-tics" id="nursing">TICS</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/tics/egress-perfil-tsu.html" id="adm-ep-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/tics/study-plan-tsu.html" id="adm-sp-tsu">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio TSU
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/tics/egress-perfil-engineering.html" id="adm-ep-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Perfil de Egreso INGENIERÍA
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/careers/tics/study-plan-engineering.html" id="adm-sp-eng">
+                                                <i class="material-icons" style="margin-top: 10px;">school</i>Plan de Estudio INGENIERÍA
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="services">
+                        <i class="material-icons">language</i>Servicios
+                    </a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/optional-insurence.html" id="optional-insurance">Seguro Facultativo</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/payments-rights.html" id="payments-rights">Pagos y Derechos</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/life-insurence.html" id="life-insurance">Seguro de Vida</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/internet-laboratory.html" id="internet-laboratory">Laboratorio e Internet</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/photocopying-service.html" id="photocopying-service">Servicio de Fotocopiado</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/services/constancy.html" id="constancy">Constancias</a></li>
+                        </ul>
+                    </div>
+                </li>
+<!--                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="regulations">
+                        <i class="material-icons">local_library</i>Reglamentos
+                    </a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/titrations.html" id="titrations">Titulación</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/evaluation.html" id="evaluation">Evaluación</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/library.html" id="library">Biblioteca</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/laboratory.html" id="laboratory">Laboratorio</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/activities.html" id="activities">Actividades</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/visits.html" id="visits">Visitas</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/students.html" id="students">Alumnos</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/guidelines-support.html" id="guidelines-support">Lineamientos de Apoyos Económicos</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/regulations/guidelines-activities.html" id="guidelines-activities">Lineamientos de Actividades Paraescolares</a></li>
+                        </ul>
+                    </div>
+                </li>-->
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="videos">
+                        <i class="material-icons">play_circle_filled</i>Himnos
+                    </a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a class="waves-effect waves-green" data-rute="pages/anthem/mexican-estate-anthem.html" id="mexican-estate-anthem">Estado de México</a></li>
+                            <li><a class="waves-effect waves-green" data-rute="pages/anthem/mexican-national-anthem.html" id="mexican-national-anthem">Nacional Mexicano</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="linkage">
+                        <i class="material-icons">insert_link</i>Vinculación
+                    </a>
+                    <div class="collapsible-body">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/activities.html" id="activities-cultures">Actividades culturales deportivas</a>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/visits.html" id="visits-companies">Visitas</a>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/stay.html" id="stay">Estadías</a>
+                            </li>
+                            <li class="no-padding">
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/social-service.html" id="social-service">Servicio Social</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/social-service/requirements.html" id="requirements">
+                                                Requisitos
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/social-service/how-when.html" id="how-when">
+                                                ¿Dónde y Cúando?
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/social-service/forms-of-realice.html" id="forms-of-realice">
+                                                Formas de Realizarlo
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/social-service/process.html" id="process">
+                                                Proceso para el Alta y Registro
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/work-bag.html" id="work-bag">Bolsa de Trabajo</a>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/tracking-graduates.html" id="tracking-graduates">Seguimiento de Egresados</a>
+                            </li>
+                            <li class="no-padding">
+                                <a class="collapsible-header waves-effect waves-green" id="scholarships">Becas</a>
+                                <div class="collapsible-body">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/scholarships/sep.html" id="sep">
+                                                SEP
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/scholarships/sep-mexico-state.html" id="sep-mexico-state">
+                                                SEP-Estado de México
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="black-font waves-effect waves-green" data-rute="pages/linkage/scholarships/academics.html" id="academics">
+                                                Académicas
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/linkage/press-publication.html" id="utsem1">Prensa y Difusión</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+<!--                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="directory">
+                        <i class="material-icons">contact_phone</i>Directorio
+                    </a>
+                    <div class="collapsible-body">
+                    </div>
+                </li>-->
+                <li class="no-padding">
+                    <a class="collapsible-header waves-effect waves-green" id="security">
+                        <i class="material-icons">https</i>Seguridad
+                    </a>
+                    <div class="collapsible-body">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/security/privacity.html" id="privacity">Aviso de Privacidad</a>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/security/personal-data.html" id="personal-data">Datos Personales</a>
+                            </li>
+                            <li>
+                                <a class="collapsible-header waves-effect waves-green" data-rute="pages/security/aditional-information.html" id="aditional-information">Información Adicional</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <a data-activates="mobile-demo" class="button-collapse waves-effect waves-green">
+                <i class="material-icons">menu</i>
+            </a>
+            <img src="img/icons/utsem-iguana.png" style="float: right; width: 140px; margin: 1px;" alt="UTsem"/>
+        </div>
+    </nav>
+
+    <main>  
+        <section>
+            <div id="content-pages"></div>
+        </section>
+    </main>
+    <footer class="page-footer  green accent-4" style="bottom: 0px; position: fixed; width: 100%; padding-top: 0px">
+        <div class="progress" style="margin: 0px;">
+            <div class="indeterminate"></div>
+        </div>
+        <div class="footer-copyright" style="margin-top: 15px;">
+          <div class="container text-grey text-lighten-5">
+              2015 Copyright App-Incur
+          </div>
+        </div>
+    </footer>
+            
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

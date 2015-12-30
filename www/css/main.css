@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/10/2015, 11:47:38 PM
+    Author     : Carlos
+*/
+.black-font{
+    color: rgb(68, 68, 68) !important; 
+    font-size: 12px !important;
+}
+.icon-tics{
+    background-image: url("../img/icons/tics.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44px
+}
+.icon-meca{
+    background-image: url("../img/icons/meca.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44px
+}
+.icon-ayep{
+    background-image: url("../img/icons/ayep.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 72px
+}
+.icon-conta{
+    background-image: url("../img/icons/conta.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44px
+}
+.icon-pal{
+    background-image: url("../img/icons/pal.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44px
+}
+.icon-enf{
+    background-image: url("../img/icons/enf.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 44px
+}
+h5 h4 h3 h2 h1{
+    color: #00C853;
+}
+header, main, footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+header, main, footer {
+  padding-left: 0;
+}
+}
+#content-pages{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+strong{
+    color: #00C853;
+}
+ul li{
+    list-style-type:square !important;
+    padding-left: 10px;
+}
